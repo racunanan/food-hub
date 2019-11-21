@@ -1,0 +1,11 @@
+<header class="navbar navbar-fixed-top navbar-inverse">
+    <div class="container">
+        <%= link_to image_tag("food-hub-logo-small.png", alt: "FoodHub logo"), root_path, id: "miniLogo" %>
+        <nav>
+            <ul class="nav navbar-nav navbar-right">
+                <li><%= link_to "Sign up", signup_path, class: "btn btn-lg" %></li>
+                <li><%= link_to "Log in", '#', class: "btn btn-lg" %></li>
+            </ul>
+        </nav>
+    </div>
+</header>
